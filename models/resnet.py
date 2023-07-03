@@ -12,7 +12,8 @@ from __future__ import print_function
 import sys
 sys.path.insert(0, '../')
 from flags import FLAGS
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 class ResNet(object):
   def __init__(self, images, is_training):

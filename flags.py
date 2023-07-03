@@ -7,7 +7,8 @@ https://opensource.org/licenses/BSD-3-Clause
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 """
 
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
 FLAGS = tf.app.flags.FLAGS
 
 """Global Options
@@ -90,7 +91,7 @@ tf.app.flags.DEFINE_integer('prof_interval', 10,
    "iterations for print training time cost")
 tf.app.flags.DEFINE_integer('log_interval', 0,
   "iterations for print summery log")
-tf.app.flags.DEFINE_string('log_dir', './out/log/',
+tf.app.flags.DEFINE_string('log_dir_', './out/log/',
    "Directory where to write event logs")
 tf.app.flags.DEFINE_string('model_dir', './out/checkpoint/',
    "path for saving learned tf model")
