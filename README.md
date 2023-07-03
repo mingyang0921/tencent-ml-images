@@ -43,8 +43,8 @@ This repository introduces the open-source project dubbed **Tencent ML-Images**,
 
 # [Dependencies](#dependencies)
   * Linux
-  * [Python 2.7](https://www.python.org/)
-  * [Tensorflow >= 1.6.0](https://www.tensorflow.org/install/)
+  * [Python 3.10.11](https://www.python.org/)
+  * [Tensorflow >= 2.9.0](https://www.tensorflow.org/install/)
 
 # [Data](#data)
 [[back to top](#)]
